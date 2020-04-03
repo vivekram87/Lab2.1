@@ -2,6 +2,24 @@ Hello
 
 master
 
+excercise install docker on ubuntu labapt-get install docker.iocreate
+ docker hub ac https://hub.docker.com/docker 
+ login give ur dockerhub  
+accesssudo chmod 777 /var/run/docker.sock 
+go to jenkins  
+jenkins global credentialsadd docker hub credentials as following 
+ 
+username srikss 
+password Bun878reef945 
+ 
+id : dockerhub 
+manage plugins - available - nodejs plugin install without restart 
+global tool configuration - nodejs installation  
+From Srikanth PB (Faculty) to All Participants(11:02:43 AM) 
+name : nodejs  
+select any version 
+From Srikanth PB (Faculty) to All Participants(11:02:49 AM) 
+ 
 pipeline { 
   environment { 
     registry = 'srikss/ubuntu' 
@@ -45,4 +63,3 @@ pipeline {
     } 
   } 
 } 
-

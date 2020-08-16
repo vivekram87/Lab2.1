@@ -1,0 +1,31 @@
+[INFO] Installing /var/lib/jenkins/workspace/first-maven-project-via-github/target/calculator-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/first-maven-project-via-github/pom.xml to /var/lib/jenkins/.m2/repository/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ calculator ---
+[INFO] Downloading from central: http://localhost:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+
+[INFO] Downloaded from central: http://localhost:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 117 kB/s)
+[INFO] Downloading from snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/maven-metadata.xml
+
+[INFO] Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-20200816.190212-1.jar
+[INFO] Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-20200816.190212-1.jar (2.9 kB at 13 kB/s)
+[INFO] Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-20200816.190212-1.pom
+[INFO] Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-20200816.190212-1.pom (2.6 kB at 22 kB/s)
+[INFO] Downloading from snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/maven-metadata.xml
+[INFO] Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/0.0.1-SNAPSHOT/maven-metadata.xml (775 B at 34 kB/s)
+[INFO] Uploading to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/maven-metadata.xml
+[INFO] Uploaded to snapshots: http://localhost:8081/artifactory/libs-snapshot/com/simplilearn/calculator/maven-metadata.xml (285 B at 8.6 kB/s)
+
+[WARNING] Attempt to (de-)serialize anonymous class org.jfrog.hudson.maven2.MavenDependenciesRecorder$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  54.033 s
+[INFO] Finished at: 2020-08-16T19:02:14Z
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving /var/lib/jenkins/workspace/first-maven-project-via-github/pom.xml to com.simplilearn/calculator/0.0.1-SNAPSHOT/calculator-0.0.1-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/workspace/first-maven-project-via-github/target/calculator-0.0.1-SNAPSHOT.jar to com.simplilearn/calculator/0.0.1-20200816.190212-1/calculator-0.0.1-20200816.190212-1.jar
+channel stopped
+Finished: SUCCESS

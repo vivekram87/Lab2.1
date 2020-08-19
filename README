@@ -214,8 +214,8 @@ Setup the Artifactory plugin in project's pom.xml file
   4. Login: username- admin
             password- admin
   5. Generate Token: Analyze "com.simplilearn:calculator": 41da3cb9c67b35100c99fee9e89d97a28e18b1a8
-  6. Fallow the configuration setup, shown in UI
-  7. Add the below profile in settings.xml
+  6. Follow the configuration setup, shown in UI
+  7. Add the below profile in settings.xml, located at var/lib/jenkins/.m2/settings.xml
        <profile>
             <id>sonar</id>
             <activation>
